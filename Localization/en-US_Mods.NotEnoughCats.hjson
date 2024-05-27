@@ -1,0 +1,17 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	BlackBallofWool: {
+		DisplayName: Black Ball of Wool
+		Tooltip: Summons Black Cat that will follow you
+	}
+}
+
+Buffs: {
+	BlackCatBuff: {
+		DisplayName: Black Cat Buff
+		Description: Mods.NotEnoughCats.Buffs.BlackCatBuff.Description
+	}
+}
+
+Projectiles.BlackCatProjectile.DisplayName: Black Cat Projectile
