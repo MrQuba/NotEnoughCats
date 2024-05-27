@@ -10,7 +10,7 @@ Items: {
 Buffs: {
 	BlackCatBuff: {
 		DisplayName: Black Cat Buff
-		Description: Mods.NotEnoughCats.Buffs.BlackCatBuff.Description
+		Description: Black Cat follows you
 	}
 }
 
