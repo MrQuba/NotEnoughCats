@@ -4,23 +4,23 @@ using Terraria.ModLoader;
 
 namespace NotEnoughCats.Content.Pets
 {
-	public class BlackCatProjectile : ModProjectile
+	public class WhiteCatProjectile : ModProjectile
 	{
-		private readonly Cat blackCat = new();
+		private readonly Cat whiteCat = new();
 		// sets static defaults and preview animation
 		public override void SetStaticDefaults()
 		{
-			blackCat.SetStaticDefaults(Projectile);
+			whiteCat.SetStaticDefaults(Projectile);
 		}
 		// sets defaults for pet
 		public override void SetDefaults()
 		{
-			blackCat.SetDefaults(Projectile, AIType);
+			whiteCat.SetDefaults(Projectile, AIType);
 		}
 		// AI of pet
 		public override void AI()
 		{
-			blackCat.AI(Projectile, ModContent.BuffType<BlackCatBuff>());
+			whiteCat.AI(Projectile, ModContent.BuffType<WhiteCatBuff>());
 		}
 	}
 }

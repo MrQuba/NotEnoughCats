@@ -28,13 +28,13 @@ namespace NotEnoughCats.Common
 			Main.projFrames[Projectile.type] = 4;
 		}
 		// AI of pet
-		public void AI(Projectile Projectile)
+		public void AI(Projectile Projectile, int buffType)
 		{
 			Player player = Main.player[Projectile.owner];
 			int frameSpeed = 25;
 			gravityForce(Projectile);
 			Animate(Projectile, player, frameSpeed);
-			isActive(Projectile, player, ModContent.BuffType<BlackCatBuff>());
+			isActive(Projectile, player, buffType);
 		}
 		// checks if there is solid tile below projectile
 		private bool isSolidTileBelow(Projectile Projectile)

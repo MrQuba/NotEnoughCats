@@ -5,6 +5,31 @@ Items: {
 		DisplayName: Black Ball of Wool
 		Tooltip: Summons Black Cat that will follow you
 	}
+
+	OrangeBallofWool: {
+		DisplayName: Orange Ball of Wool
+		Tooltip: Summons Orange Tabby Cat that will follow you
+	}
+
+	BlueBallofWool: {
+		DisplayName: Blue Ball of Wool
+		Tooltip: Summons Russian Blue Cat that will follow you
+	}
+
+	WhiteBallofWool: {
+		DisplayName: White Ball of Wool
+		Tooltip: Summons White Cat that will follow you
+	}
+
+	SilverBallofWool: {
+		DisplayName: Silver Ball of Wool
+		Tooltip: Summons Silver Cat that will follow you
+	}
+
+	GrayBallofWool: {
+		DisplayName: Gray Ball of Wool
+		Tooltip: Summons Siamese Cat that will follow you
+	}
 }
 
 Buffs: {
@@ -12,6 +37,38 @@ Buffs: {
 		DisplayName: Black Cat Buff
 		Description: Black Cat follows you
 	}
+
+	OrangeTabbyCatBuff: {
+		DisplayName: Orange Tabby Cat Buff
+		Description: Orange Tabby Cat follows you
+	}
+
+	RussianBlueCatBuff: {
+		DisplayName: Russian Blue Cat Buff
+		Description: Russian Blue Cat follows you
+	}
+
+	WhiteCatBuff: {
+		DisplayName: White Cat Buff
+		Description: White Cat follows you
+	}
+
+	SilverCatBuff: {
+		DisplayName: Silver Cat Buff
+		Description: Silver Cat follows you
+	}
+
+	SiameseCatBuff: {
+		DisplayName: Siamese Cat Buff
+		Description: Siamese Cat follows you
+	}
 }
 
-Projectiles.BlackCatProjectile.DisplayName: Black Cat Projectile
+Projectiles: {
+	BlackCatProjectile.DisplayName: Black Cat Projectile
+	OrangeTabbyCatProjectile.DisplayName: Orange Tabby Cat Projectile
+	RussianBlueCatProjectile.DisplayName: Russian Blue Cat Projectile
+	WhiteCatProjectile.DisplayName: White Cat Projectile
+	SilverCatProjectile.DisplayName: Silver Cat Projectile
+	SiameseCatProjectile.DisplayName: Siamese Cat Projectile
+}

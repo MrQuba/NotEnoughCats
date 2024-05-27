@@ -5,17 +5,17 @@ using NotEnoughCats.Common;
 
 namespace NotEnoughCats.Content.Buff
 {
-	public class BlackCatBuff : ModBuff
+	public class SiameseCatBuff : ModBuff
 	{
-		PetBuff blackCatBuff = new();
+		PetBuff grayCatBuff = new();
 		public override void SetStaticDefaults()
 		{
-			blackCatBuff.SetStaticDefaults(Type);
+			grayCatBuff.SetStaticDefaults(Type);
 		}
 
 		public override void Update(Player player, ref int buffIndex)
 		{
-			blackCatBuff.Update(player, ref buffIndex, ModContent.ProjectileType<BlackCatProjectile>());
+			grayCatBuff.Update(player, ref buffIndex, ModContent.ProjectileType<SiameseCatProjectile>());
 		}
 	}
 }

@@ -4,13 +4,13 @@ using NotEnoughCats.Content.Pets;
 using Terraria.ModLoader;
 
 namespace NotEnoughCats.Content.Items
-{ 
-	public class BlackBallofWool : ModItem
+{
+	public class GrayBallofWool : ModItem
 	{
-		BallofWool blackWool = new();
+		BallofWool grayWool = new();
 		public override void SetDefaults()
 		{
-			blackWool.SetDefaults(Item, ModContent.BuffType<BlackCatBuff>(), ModContent.ProjectileType<BlackCatProjectile>(), gold: 2, silver: 50);
+			grayWool.SetDefaults(Item, ModContent.BuffType<SiameseCatBuff>(), ModContent.ProjectileType<SiameseCatProjectile>(), gold: 2, silver: 50);
 		}
 	}
 }
